@@ -18,6 +18,11 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+//added by R.I
+app.UseCookiePolicy();
+//end by R.I
+
+
 app.UseAuthorization();
 
 app.MapControllers();
